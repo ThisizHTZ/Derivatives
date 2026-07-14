@@ -1,0 +1,10 @@
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+openpyxl>=3.1
+matplotlib>=3.7
+numba>=0.57
+pytest>=7.4
+
+# 可选：Wind 终端数据接口（需本地安装 Wind 客户端）
+# WindPy
