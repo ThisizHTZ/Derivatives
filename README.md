@@ -2,6 +2,22 @@
 
 金融衍生品定价与研究工具包，覆盖 BSM 解析解、二叉树、蒙特卡洛、障碍/敲入期权、结构化产品（鲨鱼鳍、安全气囊、Range Accrual）以及 Greeks 与基差率分析。
 
+## 实务手册
+
+课程之外的定价、条款、参数、对冲与交易台视角，见 **[docs/](docs/README.md)**：
+
+| 章节 | 内容 |
+|------|------|
+| [00 地图与术语](docs/00-map-and-glossary.md) | 模块对照、符号、中英术语 |
+| [01 快速上手](docs/01-quickstart.md) | 安装、调用、练习题 |
+| [02 定价实践](docs/02-pricing-beyond-textbook.md) | 日计数、贴现、`b`、模型选型 |
+| [03 结构化产品](docs/03-structured-products-cn.md) | 鲨鱼鳍、气囊、敲入敲出、Range Accrual |
+| [04 参数与行情](docs/04-parameters-and-market-data.md) | 波动率、基差/分红、Wind |
+| [05 Greeks 与对冲](docs/05-greeks-and-hedging.md) | Delta/Vega、障碍附近、簿记 |
+| [06 数值方法](docs/06-monte-carlo-and-numerics.md) | MC 步长/路径、离散监控 |
+| [07 模型风险](docs/07-model-risk-and-pitfalls.md) | 常见坑与自检清单 |
+| [08 交易台视角](docs/08-desk-and-career.md) | 流程、面试、自学地图 |
+
 ## 项目结构
 
 ```
