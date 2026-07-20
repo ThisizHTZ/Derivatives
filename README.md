@@ -17,6 +17,7 @@
 | [06 数值方法](docs/06-monte-carlo-and-numerics.md) | MC 步长/路径、离散监控 |
 | [07 模型风险](docs/07-model-risk-and-pitfalls.md) | 常见坑与自检清单 |
 | [08 交易台视角](docs/08-desk-and-career.md) | 流程、面试、自学地图 |
+| [09 结构化产品代码](docs/09-structured-product-code-guide.md) | 亚式、篮子、回望、雪球、Phoenix |
 
 ## 项目结构
 
@@ -28,6 +29,7 @@ derivatives/                 # 核心 Python 包
     barrier.py               # 单/双障碍期权
     knock_in.py              # 敲入期权
     structured.py            # 鲨鱼鳍、安全气囊、Range Accrual
+    exotic.py                # 亚式、篮子、回望、雪球、Phoenix
   models/                    # 数值方法
     binomial_tree.py         # 欧式/美式二叉树
     monte_carlo.py           # 蒙特卡洛
@@ -88,6 +90,7 @@ pytest -q
 | `derivatives.pricing.barrier` | 双障碍、含股息双向障碍、二元障碍 |
 | `derivatives.pricing.knock_in` | 向上/向下敲入看涨 |
 | `derivatives.pricing.structured` | 鲨鱼鳍、安全气囊、Range Accrual |
+| `derivatives.pricing.exotic` | 保本票据、亚式、回望、篮子、雪球、Phoenix |
 | `derivatives.models.binomial_tree` | 欧式/美式二叉树 |
 | `derivatives.models.monte_carlo` | GBM 路径与 MC 定价 |
 | `derivatives.analytics.greeks` | Delta/Gamma/Vega/Theta/Rho |
