@@ -22,6 +22,15 @@ from derivatives.pricing.structured import (
     shark_fin_option,
     up_and_out_call,
 )
+from derivatives.pricing.exotic import (
+    StructuredNoteResult,
+    arithmetic_asian_option_price,
+    basket_option_price,
+    capital_protected_note_price,
+    fixed_strike_lookback_option_price,
+    phoenix_autocall_note_price,
+    snowball_note_price,
+)
 from derivatives.models.binomial_tree import european_call_tree, european_put_tree, american_option_tree
 from derivatives.models.monte_carlo import european_call_mc, geo_brownian_motion
 from derivatives.models.brownian import standard_brownian_motion
@@ -46,6 +55,13 @@ __all__ = [
     "up_and_out_call",
     "airbag_option_price",
     "range_accrual_price",
+    "StructuredNoteResult",
+    "capital_protected_note_price",
+    "arithmetic_asian_option_price",
+    "fixed_strike_lookback_option_price",
+    "basket_option_price",
+    "snowball_note_price",
+    "phoenix_autocall_note_price",
     "european_call_tree",
     "european_put_tree",
     "american_option_tree",
@@ -56,4 +72,4 @@ __all__ = [
     "compute_basis_rates",
 ]
 
-__version__ = "0.2.0"
+__version__ = "0.3.0"

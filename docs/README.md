@@ -17,6 +17,7 @@
 | 6 | [06-蒙特卡洛与数值方法](06-monte-carlo-and-numerics.md) | 步长、路径数、种子、障碍监控、何时用树/MC |
 | 7 | [07-模型风险与常见坑](07-model-risk-and-pitfalls.md) | 复现失败、符号混乱、产品误定价清单 |
 | 8 | [08-交易台与从业视角](08-desk-and-career.md) | 报价流程、风控、面试常问、自学地图 |
+| 9 | [09-结构化产品代码指南](09-structured-product-code-guide.md) | 亚式、篮子、回望、雪球、Phoenix 的条款与 API |
 
 ## 和本仓库的关系
 
